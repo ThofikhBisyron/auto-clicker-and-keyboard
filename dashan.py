@@ -33,7 +33,7 @@ def autoclick():
     while not stopped:
             time.sleep(1800)
             keyboard.press_and_release('f5')
-            time.sleep(10) 
+            time.sleep(15) 
             pyautogui.click(778, 791)
             time.sleep(7)
             pyautogui.click(972, 635)
