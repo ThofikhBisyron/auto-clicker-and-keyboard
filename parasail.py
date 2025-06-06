@@ -31,9 +31,6 @@ def autoclicker():
         pyautogui.click(1588, 697)
         time.sleep(0.0001)
 
-print("Auto Clicker Mouse And Keyboard Ready")
-print("Press 'S' to start and press 'q' to stop")
-
 keyboard.wait('s')
 
 stop_thread = threading.Thread(target=stop)
