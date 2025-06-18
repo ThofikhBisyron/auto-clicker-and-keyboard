@@ -42,8 +42,6 @@ def autoclick():
    
 
 
-print("Auto Clicker Mouse And Keyboard Ready")
-print("Press 'S' to start and press 'q' to stop")
 
 keyboard.wait('s')
 
