@@ -29,7 +29,7 @@ def autoclicker():
     print("started")
     while not stoped:
         pyautogui.click(1588, 697)
-        time.sleep(0.0001)
+        time.sleep(0.00000000001)
 
 keyboard.wait('s')
 
